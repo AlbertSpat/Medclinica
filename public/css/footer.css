@@ -1,0 +1,98 @@
+    .row{
+        justify-content: space-evenly;
+    }
+    .wrapper-text-foot{
+        width: 200px;
+        font-size: 15px;    
+        color: white;
+    }
+    .date-foot{
+        color: gray;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .wrapper-text-foot> a > p{
+        margin-left: 5px;
+        margin-top: 15px;
+        width: 155px;
+    }
+
+    .aeae{
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+    }
+
+    .patient-right{
+        margin-left: 70px;
+    }
+    .wrapper-card-foot{
+        display: flex;
+        max-height: 100px;
+        max-width: 40px;
+    }
+    .new-foot{
+        height: 100px;
+        color: white;
+    }
+    ul > li > a , .aeae{
+        text-decoration: none;
+    }
+    .hrtte{
+        align-items: center;
+    }
+    .title-fot{
+        color: white;
+    }
+    .wrapper-card{
+        margin-top: 50px;
+        display:flex;   
+        /* flex-direction: row;
+        align-items: center;
+        padding: 0 8% 0 8%; */
+        justify-content: space-around;
+        width: 60%;
+    }
+    .cardone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardone > a, .cardone > h5, .gr{
+        margin-top: 15px;
+    }
+    .icon{
+        width: 40px;
+    }
+    .onl{
+        width: 150px;
+    }
+    .onl3{
+        width: 40px;
+    }
+    .block-img > a >img{
+        width: 450px;
+    }
+    .block-img-two > a > img{
+        width: 300px;
+    }
+    .aright{
+        margin-left:87%;
+        padding-top: 20px;
+        font-weight: 600;
+    }
+    .inline-block-free{
+        margin-top: 50px;
+        display:flex;   
+        flex-direction:column;
+        align-items: center;
+        padding: 0 8% 0 8%;
+    }
+    .wrapper-text{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 80%;
+        background-color: #e3f2fd;
+    }

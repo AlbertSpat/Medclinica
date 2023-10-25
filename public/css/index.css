@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.d-block{
+height: 750px;
+width: 100%;
+}
+.slidemine{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 85%;
+    object-fit: cover;
+}
+.inline-block{
+margin-top: 40px;
+width: 100%;
+display:flex;
+flex-direction:column;
+padding: 0 8% 0 8%;
+}
+.inline-block > h3 {
+margin-left: 8%;
+}
+.block-img, .block-img-two{
+display: flex;
+justify-content:center;
+margin-top: 20px;
+flex-wrap:wrap;
+object-fit: cover;
+}
+.block-img > a >img{
+width: 450px;
+object-fit: cover;
+}
+.block-img-two > a > img{
+width: 300px;
+}
+.aright{
+margin-left:87%;
+padding-top: 20px;
+font-weight: 600;
+}
+.inline-block-free{
+margin-top: 50px;
+display:flex;   
+flex-direction:column;
+align-items: center;
+padding: 0 8% 0 8%;
+}
+.wrapper-text{
+align-items: center;
+display: flex;
+flex-direction: column;
+padding: 10px;
+width: 80%;
+background-color: #e3f2fd;
+}
+.carousel-inner > .carousel-item > img {
+    max-height: 700px;
+}
+.row{
+    justify-content: space-evenly;
+}
+.wrapper-text-foot{
+    width: 200px;
+    font-size: 15px;
+    color: white;
+}
+.date-foot{
+    color: gray;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.wrapper-text-foot> a > p{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 155px;
+}
+
+.aeae{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.patient-right{
+    margin-left: 70px;
+}
+.wrapper-card-foot{
+    display: flex;
+    max-height: 100px;
+    max-width: 40px;
+}
+.new-foot{
+    height: 100px;
+    color: white;
+}
+ul > li > a , .aeae{
+    text-decoration: none;
+}
+.hrtte{
+    align-items: center;
+}
+.title-fot{
+    color: white;
+}
+.wrapper-card{
+    margin-top: 50px;
+    display:flex;   
+    /* flex-direction: row;
+    align-items: center;
+    padding: 0 8% 0 8%; */
+    justify-content: space-around;
+    width: 60%;
+}
+.cardone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardone > a, .cardone > h5, .gr{
+    margin-top: 15px;
+}
+.icon{
+    width: 40px;
+}
+.onl{
+    width: 150px;
+}
+.onl3{
+    width: 40px;
+}
