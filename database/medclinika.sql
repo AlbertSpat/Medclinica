@@ -524,9 +524,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `surname`, `patronymic`, `bithday`, `phone`, `pol`, `password`, `role`, `police`, `adres`, `created_at`, `updated_at`) VALUES
-(9, 'Илья', 'Черепанов', 'Бахтиярович', '2002-10-13', '+79220181023', 'Мужик', '$2y$10$sNv0BGdWMowzkrYG1oZf.eTXIYAAg4mcMqefqhXEoU6.o3xKmTQzu', 'admin', '1234567890123456', 'Челябинская обл., Челябинск ул.Набережная д.7, кв.76', NULL, NULL),
-(10, 'Кирилл', 'Андреев', 'Бахтиярович', '2000-09-08', '89220181023', 'Женщина', '$2y$10$sNv0BGdWMowzkrYG1oZf.eTXIYAAg4mcMqefqhXEoU6.o3xKmTQzu', 'user', '1234567890123459', 'Челябинск', NULL, NULL),
-(11, 'Данил', 'Подкарытов', 'Арбертокрович', '1999-05-08', '89220181035', 'Жещина', '$2y$10$yEsEgb/u7waGzfLAyRzDrekS7SeF1N8ExkCghsdc960kQCW2dd6iu', 'user', '1111111111111111', 'Челябинск', NULL, NULL);
+(9, 'Илья', 'Черепанов', 'Бахтиярович', '2002-10-13', '+79220181023', 'М', '$2y$10$sNv0BGdWMowzkrYG1oZf.eTXIYAAg4mcMqefqhXEoU6.o3xKmTQzu', 'admin', '1234567890123456', 'Челябинская обл., Челябинск ул.Набережная д.7, кв.76', NULL, NULL),
+(10, 'Кирилл', 'Андреев', 'Бахтиярович', '2000-09-08', '89220181023', 'Ж', '$2y$10$sNv0BGdWMowzkrYG1oZf.eTXIYAAg4mcMqefqhXEoU6.o3xKmTQzu', 'user', '1234567890123459', 'Челябинск', NULL, NULL),
+(11, 'Данил', 'Подкарытов', 'Арбертокрович', '1999-05-08', '89220181035', 'Ж', '$2y$10$yEsEgb/u7waGzfLAyRzDrekS7SeF1N8ExkCghsdc960kQCW2dd6iu', 'user', '1111111111111111', 'Челябинск', NULL, NULL);
 
 --
 -- Индексы сохранённых таблиц
